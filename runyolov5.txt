@@ -1,0 +1,36 @@
+sudo chmod 777 /dev/ttyTHS1 
+source archiconda3/bin/activate
+conda activate yolov5_py36
+cd /home/zyp/Desktop/yolov5-cjq/
+python go.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cd /home/zyp/Desktop/yolov5-master/yolov5-master/
+python detect.py --weights yolov5s.pt
+python detect.py --source 0
+
+ln -s /usr/local/lib/python3.6/dist-packages (3.5)/pyserial/  ~/archiconda3/envs/yolov5_py36/lib/python3.6/site-packages
+
+
